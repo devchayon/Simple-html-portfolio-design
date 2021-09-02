@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+  color: #444444;
+  text-align: center;
+}
+
+/* body {
+  color: #444444;
+  text-align: center;
+} */
+
+header {
+  background-color: #e3fdfd;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  display: inline-block;
+  border: 6px dotted #b9b9b9;
+  border-bottom: none;
+  width: 3rem;
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.container {
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.nav-text ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.nav-text a {
+  text-decoration: none;
+}
+
+.nav-text a li {
+  color: #000000;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.nav-text a li:hover {
+  color: #11999e;
+}
+
+.nav-logo img {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.hero .cloud1 {
+  position: absolute;
+  width: 10rem;
+  top: 5rem;
+  left: 1rem;
+}
+
+.hero .cloud2 {
+  position: absolute;
+  width: 15rem;
+  bottom: 9rem;
+  right: 1rem;
+}
+
+.mountain {
+  width: 40rem;
+  margin-bottom: -0.37rem;
+}
+
+.tag {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tag h1 {
+  font-size: 5.5rem;
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #66bfbf;
+}
+
+.tag p {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tag p span {
+  color: #66bfbf;
+  font-weight: 500;
+}
+
+/* mid */
+
+.middle-container h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #11999e;
+  margin-bottom: 2.2rem;
+}
+
+.middle-container h3 {
+  color: #11999e;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* about */
+.profile {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 15rem;
+  margin: 4rem;
+}
+
+.profile h2 {
+  font-size: 2rem;
+}
+
+.profile p {
+  font-size: 1.1rem;
+  margin: 0.5rem;
+  line-height: 1.5rem;
+}
+
+/* skill */
+.skills {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skills img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.skill-row {
+  margin: 3rem 0;
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.skill-text {
+  margin-left: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-2 {
+  margin-right: 1.4rem;
+}
+
+.skill-text p {
+  line-height: 1.7rem;
+  text-align: left;
+}
+
+.skill-text h3 {
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+/*contact me */
+
+.contact-me p {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+
+.btn {
+  background: #A6E3E9;
+  border-radius: 0.5rem;
+  font-family: "Varela Round", sans-serif;
+  color: #444444;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem ;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #71C9CE;
+  color: #000000;
+}
+
+
+.bottom-container {
+  margin-top: 5rem;
+  padding: 1rem;
+  background-color: #A6E3E9;
+}
+
+.bottom-container a {
+  margin: 0 1rem;
+}
+
+.bottom-container p {
+  margin-top: 1rem;
+}
